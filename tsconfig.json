@@ -5,11 +5,16 @@
     // "rootDir": "./src",
     // "outDir": "./dist",
 
+    "target": "ES2015",
+   "lib": ["ES2015", "ES2016", "DOM"],
+
+    "module": "CommonJS",
+    "strict": true,
+  
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
+   
+    // "types": [],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
